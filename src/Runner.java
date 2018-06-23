@@ -8,7 +8,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import com.google.common.base.Function;
 
 
@@ -22,6 +21,7 @@ public class Runner {
 
 		System.setProperty("webdriver.chrome.driver", "C:/Trainings/chromedriver.exe");		
 		WebDriver driver = new ChromeDriver();
+		// Test 
 
 
 
@@ -71,9 +71,9 @@ public class Runner {
 
 
 		//JavaScript
-		driver.get("http://automationpractice.com/index.php?");
-		System.out.println(driver.getTitle());
-		Asserts.check(driver.getTitle().contains("sdflkfgjajgfsjdfgljs"), "Unable to Fine My");
+		//driver.get("http://automationpractice.com/index.php?");
+		//System.out.println(driver.getTitle());
+		//Asserts.check(driver.getTitle().contains("sdflkfgjajgfsjdfgljs"), "Unable to Find My");
 //		Thread.sleep(10000);
 //		((JavascriptExecutor)driver).executeScript("document.getElementById('search_query_top').click();");
 
